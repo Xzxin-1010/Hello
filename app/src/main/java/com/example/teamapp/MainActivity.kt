@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
     private fun initTabLayout(){
         viewpager.offscreenPageLimit=5
         titleList.add(title[0])
-        fragmentList.add(Fragment2(title[0]))
+        fragmentList.add(Fragment3(title[0]))
         titleList.add(title[1])
         fragmentList.add(Fragment1(title[1]))
         titleList.add(title[2])
